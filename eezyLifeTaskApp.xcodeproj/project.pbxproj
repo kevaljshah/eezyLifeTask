@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C16D852243CA9F6007E3C1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D851243CA9F6007E3C1A /* AppDelegate.swift */; };
+		8C16D854243CA9F6007E3C1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D853243CA9F6007E3C1A /* SceneDelegate.swift */; };
+		8C16D856243CA9F6007E3C1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D855243CA9F6007E3C1A /* ContentView.swift */; };
+		8C16D858243CA9F9007E3C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C16D857243CA9F9007E3C1A /* Assets.xcassets */; };
+		8C16D85B243CA9F9007E3C1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C16D85A243CA9F9007E3C1A /* Preview Assets.xcassets */; };
+		8C16D85E243CA9F9007E3C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C16D85C243CA9F9007E3C1A /* LaunchScreen.storyboard */; };
+		8C16D869243CA9FA007E3C1A /* eezyLifeTaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D868243CA9FA007E3C1A /* eezyLifeTaskAppTests.swift */; };
+		8C16D874243CA9FA007E3C1A /* eezyLifeTaskAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D873243CA9FA007E3C1A /* eezyLifeTaskAppUITests.swift */; };
+		8C16D882243D1274007E3C1A /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D881243D1274007E3C1A /* TopView.swift */; };
+		8C16D884243D36E7007E3C1A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D883243D36E7007E3C1A /* HeaderView.swift */; };
+		8C16D887243D3702007E3C1A /* HostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D886243D3702007E3C1A /* HostView.swift */; };
+		8C16D889243D3723007E3C1A /* DoublePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D888243D3723007E3C1A /* DoublePlanView.swift */; };
+		8C16D88B243D3731007E3C1A /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C16D88A243D3731007E3C1A /* CommentsView.swift */; };
+		8CDE008B243D9DB900BFCE73 /* DottedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE008A243D9DB900BFCE73 /* DottedLine.swift */; };
+		8CDE008D243DD24200BFCE73 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE008C243DD24200BFCE73 /* RoundedCorners.swift */; };
+		8CDE008F243DD26B00BFCE73 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE008E243DD26B00BFCE73 /* PlanView.swift */; };
+		8CDE0091243DF3FA00BFCE73 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDE0090243DF3FA00BFCE73 /* CalendarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C16D865243CA9FA007E3C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C16D846243CA9F6007E3C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C16D84D243CA9F6007E3C1A;
+			remoteInfo = eezyLifeTaskApp;
+		};
+		8C16D870243CA9FA007E3C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C16D846243CA9F6007E3C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C16D84D243CA9F6007E3C1A;
+			remoteInfo = eezyLifeTaskApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C16D84E243CA9F6007E3C1A /* eezyLifeTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eezyLifeTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C16D851243CA9F6007E3C1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C16D853243CA9F6007E3C1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C16D855243CA9F6007E3C1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C16D857243CA9F9007E3C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C16D85A243CA9F9007E3C1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C16D85D243CA9F9007E3C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C16D85F243CA9F9007E3C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C16D864243CA9FA007E3C1A /* eezyLifeTaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eezyLifeTaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C16D868243CA9FA007E3C1A /* eezyLifeTaskAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eezyLifeTaskAppTests.swift; sourceTree = "<group>"; };
+		8C16D86A243CA9FA007E3C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C16D86F243CA9FA007E3C1A /* eezyLifeTaskAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eezyLifeTaskAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C16D873243CA9FA007E3C1A /* eezyLifeTaskAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eezyLifeTaskAppUITests.swift; sourceTree = "<group>"; };
+		8C16D875243CA9FA007E3C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C16D881243D1274007E3C1A /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		8C16D883243D36E7007E3C1A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8C16D886243D3702007E3C1A /* HostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostView.swift; sourceTree = "<group>"; };
+		8C16D888243D3723007E3C1A /* DoublePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublePlanView.swift; sourceTree = "<group>"; };
+		8C16D88A243D3731007E3C1A /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		8CDE008A243D9DB900BFCE73 /* DottedLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedLine.swift; sourceTree = "<group>"; };
+		8CDE008C243DD24200BFCE73 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		8CDE008E243DD26B00BFCE73 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		8CDE0090243DF3FA00BFCE73 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C16D84B243CA9F6007E3C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16D861243CA9FA007E3C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16D86C243CA9FA007E3C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C16D845243CA9F6007E3C1A = {
+			isa = PBXGroup;
+			children = (
+				8C16D850243CA9F6007E3C1A /* eezyLifeTaskApp */,
+				8C16D867243CA9FA007E3C1A /* eezyLifeTaskAppTests */,
+				8C16D872243CA9FA007E3C1A /* eezyLifeTaskAppUITests */,
+				8C16D84F243CA9F6007E3C1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C16D84F243CA9F6007E3C1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C16D84E243CA9F6007E3C1A /* eezyLifeTaskApp.app */,
+				8C16D864243CA9FA007E3C1A /* eezyLifeTaskAppTests.xctest */,
+				8C16D86F243CA9FA007E3C1A /* eezyLifeTaskAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C16D850243CA9F6007E3C1A /* eezyLifeTaskApp */ = {
+			isa = PBXGroup;
+			children = (
+				8C16D885243D36EC007E3C1A /* Custom Views */,
+				8C16D851243CA9F6007E3C1A /* AppDelegate.swift */,
+				8C16D853243CA9F6007E3C1A /* SceneDelegate.swift */,
+				8C16D855243CA9F6007E3C1A /* ContentView.swift */,
+				8C16D857243CA9F9007E3C1A /* Assets.xcassets */,
+				8C16D85C243CA9F9007E3C1A /* LaunchScreen.storyboard */,
+				8C16D85F243CA9F9007E3C1A /* Info.plist */,
+				8C16D859243CA9F9007E3C1A /* Preview Content */,
+			);
+			path = eezyLifeTaskApp;
+			sourceTree = "<group>";
+		};
+		8C16D859243CA9F9007E3C1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C16D85A243CA9F9007E3C1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C16D867243CA9FA007E3C1A /* eezyLifeTaskAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C16D868243CA9FA007E3C1A /* eezyLifeTaskAppTests.swift */,
+				8C16D86A243CA9FA007E3C1A /* Info.plist */,
+			);
+			path = eezyLifeTaskAppTests;
+			sourceTree = "<group>";
+		};
+		8C16D872243CA9FA007E3C1A /* eezyLifeTaskAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C16D873243CA9FA007E3C1A /* eezyLifeTaskAppUITests.swift */,
+				8C16D875243CA9FA007E3C1A /* Info.plist */,
+			);
+			path = eezyLifeTaskAppUITests;
+			sourceTree = "<group>";
+		};
+		8C16D885243D36EC007E3C1A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C16D881243D1274007E3C1A /* TopView.swift */,
+				8C16D883243D36E7007E3C1A /* HeaderView.swift */,
+				8C16D886243D3702007E3C1A /* HostView.swift */,
+				8C16D888243D3723007E3C1A /* DoublePlanView.swift */,
+				8C16D88A243D3731007E3C1A /* CommentsView.swift */,
+				8CDE008A243D9DB900BFCE73 /* DottedLine.swift */,
+				8CDE008C243DD24200BFCE73 /* RoundedCorners.swift */,
+				8CDE008E243DD26B00BFCE73 /* PlanView.swift */,
+				8CDE0090243DF3FA00BFCE73 /* CalendarView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C16D84D243CA9F6007E3C1A /* eezyLifeTaskApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C16D878243CA9FA007E3C1A /* Build configuration list for PBXNativeTarget "eezyLifeTaskApp" */;
+			buildPhases = (
+				8C16D84A243CA9F6007E3C1A /* Sources */,
+				8C16D84B243CA9F6007E3C1A /* Frameworks */,
+				8C16D84C243CA9F6007E3C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eezyLifeTaskApp;
+			productName = eezyLifeTaskApp;
+			productReference = 8C16D84E243CA9F6007E3C1A /* eezyLifeTaskApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C16D863243CA9FA007E3C1A /* eezyLifeTaskAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C16D87B243CA9FA007E3C1A /* Build configuration list for PBXNativeTarget "eezyLifeTaskAppTests" */;
+			buildPhases = (
+				8C16D860243CA9FA007E3C1A /* Sources */,
+				8C16D861243CA9FA007E3C1A /* Frameworks */,
+				8C16D862243CA9FA007E3C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C16D866243CA9FA007E3C1A /* PBXTargetDependency */,
+			);
+			name = eezyLifeTaskAppTests;
+			productName = eezyLifeTaskAppTests;
+			productReference = 8C16D864243CA9FA007E3C1A /* eezyLifeTaskAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C16D86E243CA9FA007E3C1A /* eezyLifeTaskAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C16D87E243CA9FA007E3C1A /* Build configuration list for PBXNativeTarget "eezyLifeTaskAppUITests" */;
+			buildPhases = (
+				8C16D86B243CA9FA007E3C1A /* Sources */,
+				8C16D86C243CA9FA007E3C1A /* Frameworks */,
+				8C16D86D243CA9FA007E3C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C16D871243CA9FA007E3C1A /* PBXTargetDependency */,
+			);
+			name = eezyLifeTaskAppUITests;
+			productName = eezyLifeTaskAppUITests;
+			productReference = 8C16D86F243CA9FA007E3C1A /* eezyLifeTaskAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C16D846243CA9F6007E3C1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Keval Shah";
+				TargetAttributes = {
+					8C16D84D243CA9F6007E3C1A = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					8C16D863243CA9FA007E3C1A = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 8C16D84D243CA9F6007E3C1A;
+					};
+					8C16D86E243CA9FA007E3C1A = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 8C16D84D243CA9F6007E3C1A;
+					};
+				};
+			};
+			buildConfigurationList = 8C16D849243CA9F6007E3C1A /* Build configuration list for PBXProject "eezyLifeTaskApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C16D845243CA9F6007E3C1A;
+			productRefGroup = 8C16D84F243CA9F6007E3C1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C16D84D243CA9F6007E3C1A /* eezyLifeTaskApp */,
+				8C16D863243CA9FA007E3C1A /* eezyLifeTaskAppTests */,
+				8C16D86E243CA9FA007E3C1A /* eezyLifeTaskAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C16D84C243CA9F6007E3C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C16D85E243CA9F9007E3C1A /* LaunchScreen.storyboard in Resources */,
+				8C16D85B243CA9F9007E3C1A /* Preview Assets.xcassets in Resources */,
+				8C16D858243CA9F9007E3C1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16D862243CA9FA007E3C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16D86D243CA9FA007E3C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C16D84A243CA9F6007E3C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDE008D243DD24200BFCE73 /* RoundedCorners.swift in Sources */,
+				8C16D889243D3723007E3C1A /* DoublePlanView.swift in Sources */,
+				8CDE0091243DF3FA00BFCE73 /* CalendarView.swift in Sources */,
+				8C16D884243D36E7007E3C1A /* HeaderView.swift in Sources */,
+				8C16D852243CA9F6007E3C1A /* AppDelegate.swift in Sources */,
+				8CDE008B243D9DB900BFCE73 /* DottedLine.swift in Sources */,
+				8C16D854243CA9F6007E3C1A /* SceneDelegate.swift in Sources */,
+				8C16D882243D1274007E3C1A /* TopView.swift in Sources */,
+				8CDE008F243DD26B00BFCE73 /* PlanView.swift in Sources */,
+				8C16D887243D3702007E3C1A /* HostView.swift in Sources */,
+				8C16D88B243D3731007E3C1A /* CommentsView.swift in Sources */,
+				8C16D856243CA9F6007E3C1A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16D860243CA9FA007E3C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C16D869243CA9FA007E3C1A /* eezyLifeTaskAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C16D86B243CA9FA007E3C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C16D874243CA9FA007E3C1A /* eezyLifeTaskAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C16D866243CA9FA007E3C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C16D84D243CA9F6007E3C1A /* eezyLifeTaskApp */;
+			targetProxy = 8C16D865243CA9FA007E3C1A /* PBXContainerItemProxy */;
+		};
+		8C16D871243CA9FA007E3C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C16D84D243CA9F6007E3C1A /* eezyLifeTaskApp */;
+			targetProxy = 8C16D870243CA9FA007E3C1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C16D85C243CA9F9007E3C1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C16D85D243CA9F9007E3C1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C16D876243CA9FA007E3C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C16D877243CA9FA007E3C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C16D879243CA9FA007E3C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"eezyLifeTaskApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z88J4MX4AQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = eezyLifeTaskApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTask.eezyLifeTaskApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C16D87A243CA9FA007E3C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"eezyLifeTaskApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z88J4MX4AQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = eezyLifeTaskApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTask.eezyLifeTaskApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C16D87C243CA9FA007E3C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z88J4MX4AQ;
+				INFOPLIST_FILE = eezyLifeTaskAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTask.eezyLifeTaskAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eezyLifeTaskApp.app/eezyLifeTaskApp";
+			};
+			name = Debug;
+		};
+		8C16D87D243CA9FA007E3C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z88J4MX4AQ;
+				INFOPLIST_FILE = eezyLifeTaskAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTask.eezyLifeTaskAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eezyLifeTaskApp.app/eezyLifeTaskApp";
+			};
+			name = Release;
+		};
+		8C16D87F243CA9FA007E3C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z88J4MX4AQ;
+				INFOPLIST_FILE = eezyLifeTaskAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTask.eezyLifeTaskAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eezyLifeTaskApp;
+			};
+			name = Debug;
+		};
+		8C16D880243CA9FA007E3C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z88J4MX4AQ;
+				INFOPLIST_FILE = eezyLifeTaskAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTask.eezyLifeTaskAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eezyLifeTaskApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C16D849243CA9F6007E3C1A /* Build configuration list for PBXProject "eezyLifeTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C16D876243CA9FA007E3C1A /* Debug */,
+				8C16D877243CA9FA007E3C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C16D878243CA9FA007E3C1A /* Build configuration list for PBXNativeTarget "eezyLifeTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C16D879243CA9FA007E3C1A /* Debug */,
+				8C16D87A243CA9FA007E3C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C16D87B243CA9FA007E3C1A /* Build configuration list for PBXNativeTarget "eezyLifeTaskAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C16D87C243CA9FA007E3C1A /* Debug */,
+				8C16D87D243CA9FA007E3C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C16D87E243CA9FA007E3C1A /* Build configuration list for PBXNativeTarget "eezyLifeTaskAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C16D87F243CA9FA007E3C1A /* Debug */,
+				8C16D880243CA9FA007E3C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C16D846243CA9F6007E3C1A /* Project object */;
+}
