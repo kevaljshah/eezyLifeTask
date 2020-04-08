@@ -18,7 +18,7 @@ class ListDataSource: ObservableObject {
     
     init() {
         headerRowModels.append(HeaderRowModel(timeString: "Morning", tempIcon: "sunny", tempString: "20 C", fgColor: Color.gray, isExpanded: false))
-        headerRowModels.append(HeaderRowModel(timeString: "Noon", tempIcon: "sunny", tempString: "20 C", fgColor: Color.gray, isExpanded: false))
+        headerRowModels.append(HeaderRowModel(timeString: "Noon", tempIcon: "sunny", tempString: "20 C", fgColor: Color.gray, isExpanded: true))
         headerRowModels.append(HeaderRowModel(timeString: "Afternoon", tempIcon: "sunny", tempString: "20 C", fgColor: Color.gray, isExpanded: false))
         headerRowModels.append(HeaderRowModel(timeString: "Evening", tempIcon: "rainy", tempString: "18 C", fgColor: Color.gray, isExpanded: false))
         headerRowModels.append(HeaderRowModel(timeString: "Night", tempIcon: "rainy", tempString: "16 C", fgColor: Color.gray, isExpanded: false))
@@ -36,9 +36,11 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
+            Color.gray.opacity(0.3)
             VStack(alignment: .leading, spacing: 0) {
                 TopView()
                 CalendarView()
+                Spacer()
                 ZStack {
                     List(times.headerRowModels) { time in
                         HeaderView(times: time)

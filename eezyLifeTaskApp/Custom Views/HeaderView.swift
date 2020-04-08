@@ -60,7 +60,7 @@ struct HeaderView: View {
                                     .foregroundColor(.white)
                             }
                             .frame(minWidth: 0, maxWidth: .infinity, minHeight: 56, maxHeight: 56, alignment: .leading)
-                            .background(Color(red: 0.36, green: 0.8, blue: 0.85))
+                            .background(AppColors.primaryColor)
                             .padding(.bottom)
                         }
                     }

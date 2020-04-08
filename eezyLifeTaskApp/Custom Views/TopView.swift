@@ -40,7 +40,7 @@ struct TopView: View {
                 }
                 .padding()
             }
-            .background(Color.init(red: 0.36, green: 0.8, blue: 0.85))
+            .background(AppColors.primaryColor)
             Rectangle().fill(Color.init(red: 0.4, green: 0.85, blue: 0.9)).frame(minWidth: 0, maxWidth: .infinity, minHeight: 3, maxHeight: 3, alignment: .top)
             Rectangle().fill(Color.black).frame(minWidth: 0, maxWidth: .infinity, minHeight: 3, maxHeight: 3, alignment: .bottom)
         }

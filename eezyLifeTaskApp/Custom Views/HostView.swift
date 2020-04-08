@@ -16,7 +16,7 @@ struct HostView: View {
                     Image("profilePhoto3").resizable()
                     .clipShape(Circle())
                     .shadow(radius: 10)
-                    .overlay(Circle().stroke(Color(red: 0.36, green: 0.8, blue: 0.85), lineWidth: 2))
+                        .overlay(Circle().stroke(AppColors.primaryColor, lineWidth: 2))
                     .aspectRatio(contentMode: .fit)
                     Image("Bot 2").resizable()
                         .frame(width: 15, height: 15, alignment: .bottomTrailing)
